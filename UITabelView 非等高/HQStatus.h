@@ -13,7 +13,7 @@
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *text;
 @property (nonatomic, strong) NSString *picture;
-@property (assign, nonatomic) BOOL vip;
+@property (assign, nonatomic,getter=isVip) BOOL vip;
 
 
 + (instancetype)statusWithDict:(NSDictionary *)dict;
