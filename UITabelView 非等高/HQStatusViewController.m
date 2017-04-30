@@ -54,7 +54,6 @@
     cell.status = self.statuses[indexPath.row];
     return cell;
 }
-
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 200;
 }
