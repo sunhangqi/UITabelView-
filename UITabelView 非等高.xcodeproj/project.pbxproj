@@ -13,10 +13,9 @@
 		1823DBA81EB60FF800D5712B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1823DBA71EB60FF800D5712B /* Assets.xcassets */; };
 		1823DBAB1EB60FF800D5712B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1823DBA91EB60FF800D5712B /* LaunchScreen.storyboard */; };
 		1823DBB51EB610DE00D5712B /* HQStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823DBB31EB610DE00D5712B /* HQStatusCell.m */; };
-		1823DBB61EB610DE00D5712B /* HQStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1823DBB41EB610DE00D5712B /* HQStatusCell.xib */; };
 		1823DBB81EB6164D00D5712B /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1823DBB71EB6164D00D5712B /* statuses.plist */; };
 		1823DBBB1EB6169100D5712B /* HQStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823DBBA1EB6169100D5712B /* HQStatus.m */; };
-		1823DBBE1EB6194500D5712B /* HQStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823DBBD1EB6194500D5712B /* HQStatusViewController.m */; };
+		1823DBC11EB6E24C00D5712B /* HQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823DBC01EB6E24C00D5712B /* HQTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +29,11 @@
 		1823DBAC1EB60FF800D5712B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1823DBB21EB610DE00D5712B /* HQStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQStatusCell.h; sourceTree = "<group>"; };
 		1823DBB31EB610DE00D5712B /* HQStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQStatusCell.m; sourceTree = "<group>"; };
-		1823DBB41EB610DE00D5712B /* HQStatusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HQStatusCell.xib; sourceTree = "<group>"; };
 		1823DBB71EB6164D00D5712B /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
 		1823DBB91EB6169100D5712B /* HQStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQStatus.h; sourceTree = "<group>"; };
 		1823DBBA1EB6169100D5712B /* HQStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQStatus.m; sourceTree = "<group>"; };
-		1823DBBC1EB6194500D5712B /* HQStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQStatusViewController.h; sourceTree = "<group>"; };
-		1823DBBD1EB6194500D5712B /* HQStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQStatusViewController.m; sourceTree = "<group>"; };
+		1823DBBF1EB6E24C00D5712B /* HQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQTableViewController.h; sourceTree = "<group>"; };
+		1823DBC01EB6E24C00D5712B /* HQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +66,10 @@
 		1823DB9A1EB60FF800D5712B /* UITabelView 非等高 */ = {
 			isa = PBXGroup;
 			children = (
-				1823DBBC1EB6194500D5712B /* HQStatusViewController.h */,
-				1823DBBD1EB6194500D5712B /* HQStatusViewController.m */,
 				1823DBB91EB6169100D5712B /* HQStatus.h */,
 				1823DBBA1EB6169100D5712B /* HQStatus.m */,
 				1823DBB21EB610DE00D5712B /* HQStatusCell.h */,
 				1823DBB31EB610DE00D5712B /* HQStatusCell.m */,
-				1823DBB41EB610DE00D5712B /* HQStatusCell.xib */,
 				1823DB9E1EB60FF800D5712B /* AppDelegate.h */,
 				1823DB9F1EB60FF800D5712B /* AppDelegate.m */,
 				1823DBA41EB60FF800D5712B /* Main.storyboard */,
@@ -83,6 +78,8 @@
 				1823DBB71EB6164D00D5712B /* statuses.plist */,
 				1823DBAC1EB60FF800D5712B /* Info.plist */,
 				1823DB9B1EB60FF800D5712B /* Supporting Files */,
+				1823DBBF1EB6E24C00D5712B /* HQTableViewController.h */,
+				1823DBC01EB6E24C00D5712B /* HQTableViewController.m */,
 			);
 			path = "UITabelView 非等高";
 			sourceTree = "<group>";
@@ -158,7 +155,6 @@
 				1823DBAB1EB60FF800D5712B /* LaunchScreen.storyboard in Resources */,
 				1823DBA81EB60FF800D5712B /* Assets.xcassets in Resources */,
 				1823DBB81EB6164D00D5712B /* statuses.plist in Resources */,
-				1823DBB61EB610DE00D5712B /* HQStatusCell.xib in Resources */,
 				1823DBA61EB60FF800D5712B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1823DBBE1EB6194500D5712B /* HQStatusViewController.m in Sources */,
+				1823DBC11EB6E24C00D5712B /* HQTableViewController.m in Sources */,
 				1823DBA01EB60FF800D5712B /* AppDelegate.m in Sources */,
 				1823DBB51EB610DE00D5712B /* HQStatusCell.m in Sources */,
 				1823DB9D1EB60FF800D5712B /* main.m in Sources */,
